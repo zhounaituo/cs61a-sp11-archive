@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "f10a314487f01615",
@@ -164,23 +165,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a759514ac5475f",
+  "active": "4441843127f09e7a",
   "lastOpenFiles": [
-    "4913",
+    "homeworks/hw1.5.scm~",
+    "homeworks/4913",
+    "homeworks/hw1.5.scm",
+    "homeworks/hw1.4.scm~",
+    "homeworks/hw1.4.scm",
+    "homeworks/hw1.3.scm~",
+    "homeworks/hw1.3.scm",
+    "homeworks/hw1.2.scm~",
+    "homeworks/hw1.2.scm",
+    "homeworks/hw1.1.scm~",
+    "homeworks/hw1.1.scm",
     "README.md",
-    "projects/project1/twenty-one.scm~",
-    "projects/project1/4913",
-    "projects/project1/twenty-one.scm",
-    "projects/project1/",
     "my-notes/draft.md",
-    "projects/project1/#twenty-one.scm#",
-    "projects/project1",
-    "projects",
     "my-notes/older/User Interface.md",
-    "my-notes/older/new-pascal.scm",
-    "my-notes/older/growth.scm",
     "my-notes/older/Recursion and iteration.md",
-    "my-notes/older/1.6.scm",
     "my-notes/older/Procedures and the Processes They Generate.md",
     "my-notes/older/Higher Order Procedures.md",
     "my-notes/older/higher-order procedures.md",

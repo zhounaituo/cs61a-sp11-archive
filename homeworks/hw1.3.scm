@@ -1,0 +1,30 @@
+; Write a procedure switch that takes a sentence as its argument and returns a sentence
+; in which every instance of the words I or me is replaced by you, while every instance of
+; you is replaced by me except at the beginning of the sentence, where it’s replaced by I.
+; (Don’t worry about capitalization of letters.) 
+
+; (switch '(You told me that I should wake you up)) 
+; (i told you that you should wake me up)
+(define (switch sent)
+  (define (replaced sent count)
+    (cond ((empty? sent) '())
+          ((and (= count 0) (equal? 'you (first sent))) 
+            (se 'I (replaced (bf sent) (+ count 1))))
+          ((equal? 'you (first sent)) 
+            (se 'me (replaced (bf sent) (+ count 1))))
+          ((member? (first sent) '(me i))
+            (se 'you (replaced (bf sent) (+ count 1))))
+          (else (se (first sent) (replaced (bf sent) (+ count 1))))))
+  (replaced sent 0))
+    
+(define (switch sent)
+  (define (replaced wd count)
+    (cond ((and (equal? wd 'you) (= count 0)) 'i)
+          ((equal? wd 'you) 'me)
+          ((member? wd '(me i)) 'you)
+          (else wd)))
+  (define (sw sent count)
+    (cond ((empty? sent) '())
+          (else (se (replaced (first sent) count) 
+                    (sw (bf sent) (+ count 1))))))
+  (sw sent 0))
