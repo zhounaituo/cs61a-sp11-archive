@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "20134119aa5aa09f",
+        "id": "c05127b7cb395d38",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ee0aeea45a82ac",
+            "id": "4441843127f09e7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 245.5
   },
   "right": {
     "id": "f10a314487f01615",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -126,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 351.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -137,49 +146,56 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad5b03b6287bb76a",
+  "active": "4441843127f09e7a",
   "lastOpenFiles": [
     "4913",
-    "notes/week1/summary.md",
-    "notes/week1/notes/Equipment.md",
-    "notes/week1/notes/functional programming.md",
-    "notes/week1/video/02 Functional Programming.md",
-    "[CS.md",
-    "notes/week1/video/01 Function Programming.md",
-    "notes/week1/book/创建过程抽象.md",
-    "notes/week1/book/1.1. The Elements of Programming.md",
-    "resources/books/sicp.pdf",
-    "resources/handout/notes.pdf",
     "README.md",
-    "未命名.md",
-    "notes/week2/video",
-    "notes/week2/notes",
-    "notes/week2/book",
-    "notes/week2",
-    "resources/apps/STk-ucb1.3.6_2.exe",
-    "resources/apps",
-    "resources/application",
-    "resources/新建文件夹",
+    "projects/project1/twenty-one.scm~",
+    "projects/project1/4913",
+    "projects/project1/twenty-one.scm",
+    "projects/project1/",
+    "my-notes/draft.md",
+    "projects/project1/#twenty-one.scm#",
+    "projects/project1",
+    "projects",
+    "my-notes/older/User Interface.md",
+    "my-notes/older/new-pascal.scm",
+    "my-notes/older/growth.scm",
+    "my-notes/older/Recursion and iteration.md",
+    "my-notes/older/1.6.scm",
+    "my-notes/older/Procedures and the Processes They Generate.md",
+    "my-notes/older/Higher Order Procedures.md",
+    "my-notes/older/higher-order procedures.md",
+    "my-notes/older/1.3.Formulating abstractions with higher-order procedures.md",
+    "my-notes/older/创建过程抽象.md",
+    "my-notes/older/1.1. The Elements of Programming.md",
+    "my-notes/older/summary.md",
+    "my-notes/older/functional programming.md",
+    "my-notes/older/02 Functional Programming.md",
+    "my-notes/older/01 Function Programming.md",
+    "my-notes/older/week3/video/User Interface.md",
+    "my-notes/older/week3/book/Procedures and the Processes They Generate.md",
+    "my-notes/older/week3/notes/Recursion and iteration.md",
+    "my-notes/older/week1/02 Functional Programming.md",
+    "my-notes/older/week1/01 Function Programming.md",
+    "my-notes/older/week1/summary.md",
+    "my-notes/older/week1/book/创建过程抽象.md",
+    "my-notes/older/week1/book/1.1. The Elements of Programming.md",
+    "my-notes/older/week1/functional programming.md",
+    "my-notes/older/week2/book/1.3.Formulating abstractions with higher-order procedures.md",
+    "my-notes/older/week2/video/Higher Order Procedures.md",
+    "Pasted image 20240416185317.png",
+    "resources/images/let-for-language.png",
+    "resources/images/let.png",
+    "resources/images/lambda-combination.png",
+    "resources/images/lambda-expression-language.png",
+    "resources/images/define-lambda.png",
+    "resources/images/lambda.png",
+    "resources/images/common-pattern.png",
     "resources/images/terminology.png",
-    "notes/week1/创建过程抽象.md",
-    "notes/week1/1.1. The Elements of Programming.md",
-    "Chapter1/1.1. The Elements of Programming.md",
-    "notes/Chapter1/创建过程抽象.md",
-    "notes/Chapter1/1.1. The Elements of Programming.md",
-    "resources/images/ex1.2.png",
-    "Chapter1/创建过程抽象.md",
-    "resources/images/procedure-definitions-example 1.png",
-    "resources/images/procedure-definition 1.png",
-    "resources/images/cond2.png",
-    "resources/images/cond1.png",
-    "resources/images/and.png",
-    "resources/images/not.png",
-    "resources/images/or.png",
-    "resources/images/abs3.png",
-    "resources/未命名.md"
+    "resources/images/ex1.2.png"
   ]
 }

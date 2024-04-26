@@ -1,0 +1,8 @@
+(define (fast-expt b n)
+  (expt-iter 1 b n n))
+(define (expt-iter a b n cou)
+  (cond ((= n 0) 1)
+        ((= n 1) b)
+        ((= cou 1) a)
+        ((even? cou) (expt-iter (* a b b) b n (/ cou 2)))
+        (else (expt-iter (* a b) b n (- cou 1))) ))
