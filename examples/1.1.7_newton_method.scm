@@ -1,3 +1,4 @@
+; Example: Square Roots by Newton's Method
 (define (sqrt-iter guess x)
   (if (good-enough? guess x)
       guess
