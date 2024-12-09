@@ -1,3 +1,4 @@
+
 ;;; Demonstration program for substitution-model evaluation
 ;;;   complete with normal-order and applicative-order versions.
 ;;; For use with Section 1.1 of SICP.
@@ -195,3 +196,4 @@
       (reverse done)
       (let ((result (normal1 (car todo) spaces)))
 	(subnormal (cons result done) (cdr todo) spaces) )))
+
