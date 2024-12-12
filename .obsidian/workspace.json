@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ad3d24d6d6b1d172",
+        "id": "175d93aaaf3f68ba",
         "type": "tabs",
         "children": [
           {
-            "id": "2205c23fe70e3ce7",
+            "id": "8e7188aa8ac6dfce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "textbook/notes/ch2.1_Build_Abstractions_with_Procedures.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ch2.1_Build_Abstractions_with_Procedures"
+              "title": "新标签页"
             }
           }
         ]
@@ -187,30 +183,29 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "2205c23fe70e3ce7",
+  "active": "ad5b03b6287bb76a",
   "lastOpenFiles": [
+    "textbook/notes/ch2.1_Build_Abstractions_with_Procedures.md",
+    "textbook/examples/ex2.1.3_pair.scm",
+    "textbook/examples/ex2.1.3_pair",
+    "textbook/examples/ex",
+    "textbook/exercises/exercise2.3_rectangles.scm",
+    "textbook/exercises/exercise2.2_line_segments.scm",
+    "textbook/exercises/exercise2.2_line_segments",
+    "README.md",
+    "textbook/exercises/exercise2.1_rational_number.scm",
+    "textbook/exercises/exercise2.1_rational_number",
     "textbook/examples/ex2.1.1_linear_combination.scm",
     "textbook/examples/ex2.1.1_rational_numbers.scm",
-    "textbook/examples/ex2.1.1_rational_numbers",
-    "textbook/examples/ex2.1.1_linear_combination",
-    "textbook/examples/ex_2.1.1_linear_combination",
     "textbook/notes/ch1.3_Formulating_abstractions_with_higher_order_procedures.md",
-    "textbook/notes/ch2.1_Build_Abstractions_with_Procedures.md",
-    "README.md",
     "resources/textbooks/sicp.md",
     "course/notes/lectures/week4_data_abstraction_sequences.md",
-    "resources/lectures/2.1/cons.scm",
     "course/notes/lectures/week3_Recursion_and_iteration.md",
     "course/notes/lectures/week1_functional_programming.md",
     "course/notes/lectures/week2_read_higher_order_procedures.md",
     "course/notes/lectures/week2_video_Functional_Programming.md",
     "course/notes/summeries/week1_summary.md",
-    "course/notes/lectures/week4_data_abstraction_sequences",
-    "resources/lectures/2.1/total.scm",
-    "resources/lectures/2.1",
-    "emacs-X11.exe.stackdump",
     "textbook/notes/ch1.2_Procedures_and_the_Processes_They_Generate.md",
-    "resources/lectures/1.3/sum.scm",
     "textbook/notes/ch1.1_The_Elements_of_Programming.md",
     "course/notes/lectures/week1_function_programming.md",
     "course/notes/journal/2024-05-10_14_journal.md",
