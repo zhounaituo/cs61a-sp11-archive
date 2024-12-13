@@ -62,3 +62,33 @@
 ; intervals being added (or subtracted). Give examples to 
 ; show that this is not true for multiplication or 
 ; division.
+
+(define (get-width x)
+    (avg (upper-bound x) (lower-bound x)))
+
+(define (avg a b)
+    (/ (+ a b) 2))
+
+; [4,5] [9,18]
+(define a (make-interval 4 5))
+(define b (make-interval 9 18))
+
+(define (equal-interval? a b)
+    (and (= (upper-bound a) (upper-bound b)) (= (lower-bound a) (lower-bound b))))
+
+(cond ((= (get-width (add-interval a b)) 
+          (+ (get-width a) (get-width b))) (print #t))
+      (else (print #f)))
+
+(cond ((= (get-width (sub-interval a b)) 
+          (- (get-width a) (get-width b))) (print #t))
+      (else (print #f)))
+
+(cond ((= (get-width (mul-interval a b)) 
+          (* (get-width a) (get-width b))) (print #t))
+      (else (print #f)))
+
+(cond ((= (get-width (div-interval a b)) 
+          (/ (get-width a) (get-width b))) (print #t))
+      (else (print #f)))
+
