@@ -4,7 +4,24 @@
 
 (define a (list 1 4 9 16 25))
 
-(define (reverse list)
-    (if (null? list)
+(define (append list1 list2)
+    (if (null? list1)
+        list2
+        (cons (car list1) (append (cdr list1) list2))))
+
+(define (reverse ls)
+    (if (null? ls)
         nil
-        (cons (reverse (cdr list)) (car list))))
+        (append (reverse (cdr ls)) (list (car ls)))))
+
+;;;;; 
+
+; version 2nd
+
+(define (reverse ls)
+    (define (iter things answer)
+        (if (null? things)
+            answer
+            (iter (cdr things)
+                  (cons (car things) answer))))
+    (iter ls nil))
