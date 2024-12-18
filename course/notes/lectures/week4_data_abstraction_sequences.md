@@ -1,8 +1,15 @@
-- [ ] Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
+- [x] Reading: Abelson & Sussman, Sections 2.1 and 2.2.1 (pages 79–106)
 
 - 数据抽象的几个部分
 	- 选择器（_selector_）：选择器会在多个部分的数据中筛选出其中某个部分。
 	- 构造器（_constructor_）：用来构造生产数据类型，以隐藏数据处理细节。
 - **pairs**：将简单的数据类型组合构造复杂类型的方法
 	- **CONS** \ **CAR** \ **CDR**
-- 
+- 什么是数据抽象？
+- 数据抽象有哪些部分组成？
+- 如何使用这个抽象思想？
+- **分布式计算(_MapReduce_)**：主要用于处理和生成大规模数据集的编程模式。
+	- 主要过程：
+		- Map：接受一组数据（大量的小块数据）并处理为一组中间 key-value 对；
+		- Reduce：接受来自 map 函数生成的 key-value 对，并将相同 key 的所有 value 合并起来。
+	- 整体步骤：Spliting -> Mapping -> Shuffling and Sorting -> Reducing
