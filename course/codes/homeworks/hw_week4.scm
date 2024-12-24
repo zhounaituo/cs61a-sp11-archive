@@ -54,3 +54,47 @@
 ; word starting with c, ending with r, and having a string of ;
 ; letters a and/or d in between, such as cdddadaadar. It should 
 ; return the corresponding function.
+
+(define (cxr s) 
+    (rec def s))
+
+; Similar to accumulation, looping and applying fx to strings  
+(define (rec fx s)
+    (cond ((empty? s) "")
+          (else (fx (first s) (rec fx (bf s))))))
+
+; Function zero, which accepts a variable and returns it.
+; (zf 'a) -> 'a 
+(define zf (lambda (x) x))
+
+; fx
+(define def 
+    (lambda (s fx) 
+        (cond ((not (procedure? fx)) (def s zf))
+              ((not (member? s '(a d))) (glue zf fx))
+              ((equal? 'a s) (glue car fx))
+              ((equal? 'd s) (glue cdr fx)))))
+
+; (glue car cdr) -> (lambda (x) (cdr (car x)))
+(define (glue fx gx)
+    (define init (lambda (f) (lambda (x) (f x)))) ;wrapper function
+    (define (helper hx) 
+        (lambda (f) (lambda (x) (f (hx x)))))
+    ((helper (init fx)) gx))
+
+; This program mainly consists of three parts:
+; 
+; 1. Accept a variable and return it exactly as it is:
+;     (define zero-function (lambda (x) x))
+; 
+; 2. Wrap a function into a lambda function for subsequent ;
+； function composition:
+;     (define wrapper (lambda (f) (lambda (x) (f x))))
+;
+; 3. Combine and nest two methods together:
+; (define (glue fx) (lambda (f) (lambda (x) (f (fx x))))) 
+;
+; Example:
+; (define a (wrapper car)) -> (lambda (x) (car x))
+; (define b ((glue a) cdr)) -> (lambda (x) (cdr (car x)))
+; (define c ((glue b) car)) -> (lambda (x) (car (cdr (car x))))
