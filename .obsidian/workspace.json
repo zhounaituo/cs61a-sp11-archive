@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "44d1bc408dedf3c0",
+        "id": "3351105c9b92cfa2",
         "type": "tabs",
         "children": [
           {
-            "id": "327976095ffdc361",
+            "id": "63aa9bfcf51d7360",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "README"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "draft.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
-              "title": "draft 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -162,7 +162,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "327976095ffdc361",
+  "active": "63aa9bfcf51d7360",
   "lastOpenFiles": [
     "draft.md",
     "textbook/notes/ch1.1_The_Elements_of_Programming.md",
@@ -170,35 +170,36 @@
     "textbook/notes/ch1.3_Formulating_abstractions_with_higher_order_procedures.md",
     "textbook/notes/ch1.2_Procedures_and_the_Processes_They_Generate.md",
     "README.md",
+    "log.md",
+    "docs/challenges.md",
+    "course/notes/journal/2024-05-10_14_journal.md",
+    "course/notes/lectures/week2_video_Functional_Programming.md",
+    "course/notes/lectures/week2_read_higher_order_procedures.md",
+    "course/notes/lectures/week1_functional_programming.md",
+    "course/notes/lectures/week1_function_programming.md",
+    "course/notes/summeries/week1_summary.md",
+    "course/notes/lectures/week4_data_abstraction_sequences.md",
+    "course/notes/lectures/week3_Recursion_and_iteration.md",
+    "docs/standard.md",
+    "docs/Quick-start.md",
+    "docs/progress.md",
+    "docs/glossary.md",
+    "docs/FAQ.md",
     "resources/textbooks/sicp.pdf",
     "resources/textbooks/sicp.md",
     "course/codes/midterms/mt1.scm",
     "course/codes/midterms/mt1-1.scm",
     "course/codes/midterms",
     "course/codes/labs/lab_week4.scm",
-    "course/notes/lectures/week4_data_abstraction_sequences.md",
     "course/codes/homeworks/hw_week4.scm",
-    "course/notes/lectures/week3_Recursion_and_iteration.md",
     "resources/lectures/summary",
     "resources/lectures/mapreduce-demo.scm",
     "resources/lectures/groupreduces.scm",
     "resources/lectures/errors",
     "course/notes/examples/未命名.md",
-    "course/notes/summeries/week1_summary.md",
-    "course/notes/lectures/week1_functional_programming.md",
-    "course/notes/lectures/week2_read_higher_order_procedures.md",
-    "course/notes/lectures/week2_video_Functional_Programming.md",
-    "course/notes/lectures/week1_function_programming.md",
-    "course/notes/journal/2024-05-10_14_journal.md",
     "courses/notes/summeries/week1_summary.md",
     "courses/notes/lectures/week3_Recursion_and_iteration.md",
     "courses/notes/lectures/week2_video_Functional_Programming.md",
-    "courses/notes/lectures/week2_read_higher_order_procedures.md",
-    "courses/notes/lectures/week1_function_programming.md",
-    "courses/notes/lectures/week1_functional_programming.md",
-    "courses/notes/journal/2024-05-10_14_journal.md",
-    "lectures/notes/lectures/week3_Recursion_and_iteration.md",
-    "lectures/notes/lectures/week2_video_Functional_Programming.md",
     "Pasted image 20240416185317.png",
     "resources/images/let-for-language.png",
     "resources/images/let.png",

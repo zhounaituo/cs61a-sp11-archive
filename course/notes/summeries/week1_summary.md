@@ -12,7 +12,10 @@ The acts of the mind, wherein it exerts its power over simple ideas, are chiefly
 	- 逻辑编程（logic programming）
 ## 关于编程语言
 - **编程语言**的作用不仅在于指导计算机完成任务，更重要的是**帮助我们组织思考**。因此，我们要注重语言提供的能力——将简单的思想结合形成更加复杂思想的能力。[[sicp.pdf#page=34&selection=5,39,6,61|sicp, page 34]]
-- 编程语言的三个重要的机制：1. **基础表达式**(_primitive expressions_): 语言所涉及的最简单实体，包括_基础数据_和_基础过程_。2. **结合的手段**(_means of combination_): 可以将简单的元素结合成结合体。3. **抽象的手段**(_means of abstraction_): 可以把结合体作为一个单元，对它命名和操作。[[sicp.pdf#page=34&selection=9,20,25,25|sicp, page 34]]
+- 编程语言的三个重要的机制：
+	1. **基础表达式**(_primitive expressions_): 语言所涉及的最简单实体，包括_基础数据_和_基础过程_。
+	2. **结合的手段**(_means of combination_): 可以将简单的元素结合成结合体。
+	3. **抽象的手段**(_means of abstraction_): 可以把结合体作为一个单元，对它命名和操作。[[sicp.pdf#page=34&selection=9,20,25,25|sicp, page 34]]
 - 强大语言的一些要素：
 	1. 数字和算术运算是基本的数据和过程。
 	2. 内嵌组合提供了一种组合过程的方法。
