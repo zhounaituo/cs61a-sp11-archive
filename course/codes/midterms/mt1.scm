@@ -9,8 +9,11 @@
 (every - (keep number? '(the 1 after 909))) 
 ; (-1 -909) 
 
+((lambda (a b) ((if (< b a) + *) b a)) 4 6)
+; 24
+
 (word (first '(cat)) (butlast 'dog)) 
-; catdos
+; catdo
 
 ; What will Scheme print in response to the following 
 ; expressions? If an expression produces an error message, you 
@@ -26,8 +29,7 @@
 ; ((5))
 
 (cadadr '((a (b) c) (d (e) f) (g (h) i)))
-; error, lost right parenthesis.
-; or (e)
+; (e)
 
 
 ; Problem 2 (Orders of growth).
@@ -40,7 +42,8 @@
 (define (baz n)
     (+ n (- n 1)) )
 
-; Θ(n)
+; ~Θ(n)~
+; FOO is Theta(1)
 
 ; (b) Indicate the order of growth in time of garply below:
 (define (garply n)
@@ -52,7 +55,7 @@
         1
         (* n (factorial (- n 1)))))
 
-; Θ(n^2)
+;;;; GARPLY is Theta(n^2).
 
 
 ; Problem 3 (Normal and applicative order).
@@ -67,7 +70,7 @@
 ; (* (counter) (counter))
 
 ; under applicative order? 2
-; under normal order? 1
+; under normal order? ~1~ 2
 
 
 ; Problem 4 (Iterative and recursive processes) 
