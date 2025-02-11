@@ -1,0 +1,46 @@
+- [ ] Exercise 1.21
+- [ ] Exercise 1.22
+- [ ] Exercise 1.23
+- [ ] Exercise 1.24
+- [ ] Exercise 2.4
+- [ ] Exercise 2.6
+- [ ] Exercise 2.7
+- [ ] Exercise 2.8
+- [ ] Exercise 2.9
+- [ ] Exercise 2.10
+- [ ] Exercise 3.1
+- [ ] Exercise 3.2
+- [ ] Exercise 3.3
+- [ ] Exercise 3.4
+- [ ] Exercise 3.5
+- [ ] Exercise 3.6
+- [x] Exercise 4.1 
+- [ ] Exercise 4.2 
+- [ ] Exercise 4.3 
+- [ ] Exercise 4.4 
+- [ ] Exercise 4.5 
+- [ ] Exercise 4.6 
+- [ ] Exercise 4.7 
+- [ ] Exercise 4.8 
+- [ ] Exercise 4.9 
+- [ ] Exercise 4.10 
+- [ ] Exercise 4.11 
+- [ ] Exercise 4.12 
+- [ ] Exercise 4.13 
+- [ ] Exercise 5.1
+- [ ] Exercise 5.2
+- [ ] Exercise 5.3
+- [ ] Exercise 5.4
+- [ ] Exercise 5.5
+- [ ] Exercise 5.6
+- [ ] Chapter 5.6 样例复写，自己实现一边，然后看样例再写一遍。
+- [ ] Exercise 5.7
+- [ ] Chapter 5.7 样例复习，自己实现一边，然后看样例再写一遍。
+- [ ] Exercise 5.8
+- [ ] Exercise 5.9
+- [ ] Exercise 5.10
+- [ ] Exercise 5.11
+- [ ] Exercise 5.12
+- [ ] Exercise 5.13
+- [ ] Exercise 2.27
+- [ ] Exercise 2.28
