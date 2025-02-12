@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/challenges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "challenges"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "docs/challenges.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "challenges 的大纲"
             }
           }
         ],
@@ -168,26 +168,26 @@
   },
   "active": "8a1e79ebe7864f80",
   "lastOpenFiles": [
+    "textbook/examples/ex2.2.3_filter.scm",
+    "textbook/examples/ex2.2.3_even_fibs.scm",
+    "textbook/examples/ex2.2.3_sum_odd_squares.scm",
+    "textbook/exercises/_exercise2.32_subsets.scm",
+    "textbook/exercises/exercise2.32_subsets.scm",
+    "textbook/exercises/exercise2.31_abstract_square_tree.scm",
+    "textbook/exercises/exercise2.30_square-tree.scm",
+    "textbook/exercises/_exercise2.29_binary_mobile.scm",
+    "textbook/examples/ex2.2.2_scale-tree.scm",
+    "README.md",
     "resources/reader/belowline.pdf",
     "resources/reader/aboveline.pdf",
-    "resources/reader/notes.pdf",
     "task-list.md",
-    "README.md",
     "docs/challenges.md",
     "docs/standard.md",
     "docs/Quick-start.md",
     "docs/glossary.md",
     "docs/FAQ.md",
     "docs/progress.md",
-    "textbook/exercises/exercise2.29_binary_mobile.scm",
-    "textbook/exercises/_exercise2.28_fringe.scm",
-    "textbook/exercises/exercise2.28_fringe.scm",
-    "textbook/exercises/exercise2.28_frin",
     "textbook/notes/ch2.2.2_heirarchical_structures.md",
-    "textbook/exercises/exercise2.27_deep_reverse.scm",
-    "textbook/exercises/exercise2.26_eval_expressions.scm",
-    "textbook/exercises/exercise2.26_eval_expressions",
-    "textbook/exercises/exercise2.26_",
     "textbook/exercises/exercise2.24_structure.jpg",
     "textbook/exercises/exercise2.24_structure.md",
     "textbook/notes/ch2.1_Build_Abstractions_with_Procedures.md",

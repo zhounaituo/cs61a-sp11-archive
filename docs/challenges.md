@@ -44,3 +44,5 @@
 - [ ] Exercise 5.13
 - [ ] Exercise 2.27
 - [ ] Exercise 2.28
+- [ ] Exercise 2.29
+- [ ] Exercise 2.32
