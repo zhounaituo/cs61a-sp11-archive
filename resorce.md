@@ -1,0 +1,6 @@
+- [CS61A Archives Home](https://web.archive.org/web/20230629231309/https://inst.eecs.berkeley.edu/~cs61a/archives.html) 
+- [CS61A SU11 archive](http://inst.eecs.berkeley.edu/~cs61a/su11/)： Have  a clearly Calendar
+- [CS61A archive](https://people.eecs.berkeley.edu/~bh/61a-pages/) ：Have all entity source of class 61a
+- [entity source by theurere](https://github.com/theurere/berkeley_cs61a_spring-2011_archive?tab=readme-ov-file) 
+- [cs61a resource on reddit](https://www.reddit.com/r/learnprogramming/comments/rjehug/teachyourselfcs_sicp_resources/) 
+- [cs61a reoucce on reddit 2](https://news.ycombinator.com/item?id=13867016) 
